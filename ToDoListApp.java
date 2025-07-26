@@ -33,11 +33,16 @@ public class ToDoListApp {
             scan.nextLine();
 
             switch (choice) {
-                case 1: addTask(); break;
-                case 2: deleteTask(); break;
-                case 3: markComplete(); break;
-                case 4: displayTasks(); break;
-                case 5: System.out.println("Exiting..."); break;
+                case 1: addTask(); 
+                    break;
+                case 2: deleteTask(); 
+                    break;
+                case 3: markComplete(); 
+                    break;
+                case 4: displayTasks(); 
+                    break;
+                case 5: System.out.println("Exiting..."); 
+                    break;
                 default: System.out.println("Invalid choice.");
             }
         } while (choice != 5);
